@@ -14,6 +14,6 @@ import static io.cucumber.junit.platform.engine.Constants.*;
         @ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@positive or @negative")
 })
 @SuiteDisplayName("Weather API Cucumber Tests")
-@ExcludeEngines("junit-jupiter") // Добавьте эту строку
+@ExcludeEngines("junit-jupiter")
 public class WeatherAPITest {
 }
